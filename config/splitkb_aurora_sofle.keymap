@@ -50,6 +50,13 @@
             bindings = <&kp LT &kp GT &kp LEFT>;
             label = "ANGLE_SURROUND";
         };
+
+        mu: mu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(RS(N8)) &kp M>;
+            label = "MU";
+        };
     };
 
     keymap {
@@ -85,11 +92,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4                                  &trans         &trans    &trans           &trans       &trans    &kp K_POWER
-&kp F1      &kp N1            &kp N2        &kp N3            &kp N4             &kp N5                                        &kp N6         &kp N7    &kp N8           &kp N9       &kp N0    &kp MINUS
-&kp GRAVE   &kp EXCL          &kp AT        &kp HASH          &kp DOLLAR         &kp PRCNT                                     &kp CARET      &kp AMPS  &kp STAR         &kp LPAR     &kp RPAR  &kp TILDE
-&trans      &ext_power EP_ON  &kp SLASH     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL     &kp K_MUTE    &kp C_PLAY_PAUSE  &double_arrow  &deref    &angle_surround  &kp LBRC     &kp RBRC  &kp PIPE
-                              &trans        &trans            &trans             &trans        &trans        &trans            &trans         &trans    &trans           &kp K_SLEEP
+&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4                                  &trans     &trans    &trans           &trans         &trans    &kp K_POWER
+&kp F1      &kp N1            &kp N2        &kp N3            &kp N4             &kp N5                                        &kp N6     &kp N7    &kp N8           &kp N9         &kp N0    &kp MINUS
+&kp GRAVE   &kp EXCL          &kp AT        &kp HASH          &kp DOLLAR         &kp PRCNT                                     &kp CARET  &kp AMPS  &kp STAR         &kp LPAR       &kp RPAR  &kp TILDE
+&trans      &ext_power EP_ON  &kp SLASH     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL     &kp K_MUTE    &kp C_PLAY_PAUSE  &mu        &deref    &angle_surround  &double_arrow  &kp RBRC  &kp PIPE
+                              &trans        &trans            &trans             &trans        &trans        &trans            &trans     &trans    &trans           &kp K_SLEEP
             >;
 
             sensor-bindings =
