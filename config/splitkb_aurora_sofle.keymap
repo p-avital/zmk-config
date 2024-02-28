@@ -28,6 +28,10 @@
     flavor = "balanced";
 };
 
+&sensors {
+    triggers-per-rotation = <30 >;
+};
+
 / {
     macros {
         deref: deref {
@@ -54,7 +58,7 @@
         mu: mu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RA(RS(N8)) &kp M>;
+            bindings = <&kp RA(RS(N8))>;
             label = "MU";
         };
     };
