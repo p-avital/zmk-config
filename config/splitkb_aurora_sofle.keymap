@@ -88,6 +88,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <21 22>;
         };
+
+        delete2 {
+            bindings = <&kp DEL>;
+            key-positions = <10 9>;
+        };
     };
 
     keymap {
