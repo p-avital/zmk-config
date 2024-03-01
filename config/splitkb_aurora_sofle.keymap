@@ -195,7 +195,7 @@
             bindings = <
 &kp F1   &kp F2     &kp F3     &kp F4     &kp F5     &kp F6                           &kp F7         &kp F8     &kp F9        &kp F10          &kp F11        &kp F12
 &kp ESC  &kp HOME   &kp UP     &kp END    &kp BSPC   &kp DEL                          &kp PAGE_UP    &kp HOME   &kp UP_ARROW  &kp END          &kp BACKSPACE  &kp DEL
-&kp TAB  &kp LEFT   &kp DOWN   &kp RIGHT  &kp RET    &kp F6                           &kp TAB        &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &kp ENTER      &trans
+&kp TAB  &trans     &trans     &trans     &trans     &kp F6                           &kp TAB        &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &kp ENTER      &trans
 &kp F7   &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp F12  &trans       &trans     &kp PAGE_DOWN  &kp LG(X)  &kp LG(C)     &kp LG(V)        &kp F2         &kp BSLH
                     &trans     &trans     &trans     &trans   &kp UNDER    &kp UNDER  &trans         &trans     &trans        &trans
             >;
