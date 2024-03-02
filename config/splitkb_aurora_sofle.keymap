@@ -28,14 +28,10 @@
     flavor = "balanced";
 };
 
-&sensors { 
-    left_config {
-        triggers-per-rotation = <64>;
-    };
+&sensors {
+    left_config { triggers-per-rotation = <64>; };
 
-    right_config {
-        triggers-per-rotation = <64>;
-    };
+    right_config { triggers-per-rotation = <64>; };
 };
 
 / {
@@ -105,11 +101,11 @@
             //               |CTRL | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   | RALT |
 
             bindings = <
-&kp ESC    &kp N1   &kp N2       &kp N3          &kp N4       &kp N5                                 &kp N6           &kp N7       &kp N8      &kp N9       &kp N0                   &kp MINUS
-&kp TAB    &kp Q    &kp W        &kp E           &kp R        &kp T                                  &kp Y            &kp U        &kp I       &kp O        &kp P                    &kp GRAVE
-&kp RALT   &lt 2 A  &mt LCTRL S  &mt LEFT_ALT D  &mt LSHFT F  &kp G                                  &kp H            &mt RSHFT J  &mt RALT K  &mt RCTRL L  &mt LEFT_META SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z    &kp X        &kp C           &kp V        &kp B      &to 4          &to 3        &kp N            &kp M        &kp COMMA   &kp DOT      &kp FSLH                 &mt LEFT_SHIFT EQUAL
-                    &kp LCTRL    &kp LALT        &kp LGUI     &lt 2 DEL  &lt 1 SPACE    &lt 1 SPACE  &lt 2 BACKSPACE  &kp BSPC     &kp ESCAPE  &kp RALT
+&kp ESC    &kp N1   &kp N2       &kp N3          &kp N4       &kp N5                                                   &kp N6           &kp N7       &kp N8      &kp N9       &kp N0                   &kp MINUS
+&kp TAB    &kp Q    &kp W        &kp E           &kp R        &kp T                                                    &kp Y            &kp U        &kp I       &kp O        &kp P                    &kp GRAVE
+&kp RALT   &lt 2 A  &mt LCTRL S  &mt LEFT_ALT D  &mt LSHFT F  &kp G                                                    &kp H            &mt RSHFT J  &mt RALT K  &mt RCTRL L  &mt LEFT_META SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z    &kp X        &kp C           &kp V        &kp B      &to 4                   &to 3                 &kp N            &kp M        &kp COMMA   &kp DOT      &kp FSLH                 &mt LEFT_SHIFT EQUAL
+                    &kp LCTRL    &kp LALT        &kp LGUI     &lt 1 DEL  &mt LEFT_SHIFT SPACE    &mt LEFT_SHIFT SPACE  &lt 1 BACKSPACE  &kp BSPC     &kp ESCAPE  &kp RALT
             >;
 
             sensor-bindings =
