@@ -160,7 +160,9 @@
                    &kp LCTRL  &kp LALT  &kp LALT  &kp SPACE  &kp LCTRL    &kp SPACE  &kp BSPC  &kp BSPC  &kp BSPC   &kp BSPC
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
 
         mac {
