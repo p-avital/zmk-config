@@ -28,7 +28,15 @@
     flavor = "balanced";
 };
 
-&sensors { triggers-per-rotation = < 64 >; };
+&sensors { 
+    left_config {
+        triggers-per-rotation = <64>;
+    };
+
+    right_config {
+        triggers-per-rotation = <64>;
+    };
+};
 
 / {
     macros {
