@@ -147,7 +147,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_BRI_DEC C_BRI_INC>,
+                <&inc_dec_kp LC(Z) LC(LS(Z))>,
                 <&inc_dec_kp LC(Z) LC(LS(Z))>;
         };
 
