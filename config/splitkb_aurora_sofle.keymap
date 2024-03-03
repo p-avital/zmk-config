@@ -81,6 +81,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <22 23>;
         };
+
+        backspace2 {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <33 34>;
+        };
     };
 
     keymap {
