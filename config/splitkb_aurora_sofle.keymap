@@ -125,7 +125,7 @@
 &kp ESC  &kp HOME   &kp UP     &kp END    &kp BSPC   &kp DEL                                    &kp PAGE_UP    &kp HOME   &kp UP_ARROW  &kp END          &kp BACKSPACE  &kp DEL
 &kp TAB  &trans     &trans     &trans     &trans     &kp F6                                     &kp TAB        &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &kp ENTER      &trans
 &kp F7   &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp F12    &trans           &trans         &kp PAGE_DOWN  &kp LC(X)  &kp LC(C)     &kp LC(V)        &kp F2         &kp BSLH
-                    &trans     &trans     &trans     &kp MINUS  &kp LS(UNDER)    &kp LS(UNDER)  &kp MINUS      &trans     &trans        &trans
+                    &trans     &trans     &trans     &kp MINUS  &kp LS(UNDER)    &kp LS(UNDER)  &kp BACKSPACE  &trans     &trans        &trans
             >;
 
             sensor-bindings =
