@@ -121,11 +121,11 @@
 
         arrows {
             bindings = <
-&kp F1   &kp F2     &kp F3     &kp F4     &kp F5     &kp F6                                     &kp F7         &kp F8     &kp F9        &kp F10          &kp F11        &kp F12
-&kp ESC  &kp HOME   &kp UP     &kp END    &kp BSPC   &kp DEL                                    &kp PAGE_UP    &kp HOME   &kp UP_ARROW  &kp END          &kp BACKSPACE  &kp DEL
-&kp TAB  &trans     &trans     &trans     &trans     &kp F6                                     &kp TAB        &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &kp ENTER      &trans
-&kp F7   &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp F12    &trans           &trans         &kp PAGE_DOWN  &kp LC(X)  &kp LC(C)     &kp LC(V)        &kp F2         &kp BSLH
-                    &trans     &trans     &trans     &kp MINUS  &kp LS(UNDER)    &kp LS(UNDER)  &kp BACKSPACE  &trans     &trans        &trans
+&kp F1   &kp F2     &kp F3     &kp F4      &kp F5     &kp F6                                     &kp F7         &kp F8    &kp F9           &kp F10          &kp F11        &kp F12
+&kp ESC  &kp HOME   &kp UP     &kp ESCAPE  &kp BSPC   &kp DEL                                    &kp PAGE_UP    &kp HOME  &kp UP_ARROW     &kp END          &kp BACKSPACE  &kp DEL
+&kp TAB  &trans     &trans     &trans      &trans     &kp F6                                     &kp TAB        &kp LEFT  &kp DOWN         &kp RIGHT_ARROW  &kp ENTER      &trans
+&kp F7   &kp LC(Z)  &kp LC(X)  &kp LC(C)   &kp LC(V)  &kp F12    &trans           &trans         &kp PAGE_DOWN  &deref    &angle_surround  &double_arrow    &kp F2         &kp BSLH
+                    &trans     &trans      &trans     &kp MINUS  &kp LS(UNDER)    &kp LS(UNDER)  &kp BACKSPACE  &trans    &trans           &trans
             >;
 
             sensor-bindings =
@@ -149,11 +149,11 @@
 
         mac {
             bindings = <
-&kp ESC        &kp N1   &kp N2           &kp N3          &kp N4       &kp N5                              &kp N6  &kp N7       &kp N8      &kp N9           &kp N0               &kp MINUS
-&kp TAB        &kp Q    &kp W            &kp E           &kp R        &kp T                               &kp Y   &kp U        &kp I       &kp O            &kp P                &kp GRAVE
-&kp BACKSPACE  &lt 2 A  &mt LEFT_META S  &mt LEFT_ALT D  &mt LSHFT F  &kp G                               &kp H   &mt RSHFT J  &mt RALT K  &mt LEFT_META L  &mt LCTRL SEMICOLON  &kp SQT
-&kp LSHFT      &kp Z    &kp X            &kp C           &kp V        &kp B   &to 0          &to 3        &kp N   &kp M        &kp COMMA   &kp DOT          &kp FSLH             &kp BSLH
-                        &kp LCTRL        &kp LALT        &kp LGUI     &mo 2   &lt 1 SPACE    &lt 1 SPACE  &mo 2   &kp BSPC     &kp RGUI    &kp RALT
+&kp ESC       &kp N1   &kp N2           &kp N3          &kp N4       &kp N5                                                      &kp N6           &kp N7       &kp N8      &kp N9           &kp N0               &kp MINUS
+&kp TAB       &kp Q    &kp W            &kp E           &kp R        &kp T                                                       &kp Y            &kp U        &kp I       &kp O            &kp P                &kp GRAVE
+&kp LEFT_ALT  &lt 5 A  &mt LEFT_META S  &mt LEFT_ALT D  &mt LSHFT F  &kp G                                                       &kp H            &mt RSHFT J  &mt RALT K  &mt LEFT_META L  &mt LCTRL SEMICOLON  &kp SQT
+&kp LSHFT     &kp Z    &kp X            &kp C           &kp V        &kp B         &to 0                   &to 3                 &kp N            &kp M        &kp COMMA   &kp DOT          &kp FSLH             &kp EQUAL
+                       &kp LCTRL        &kp LALT        &kp LGUI     &lt 1 DELETE  &mt LEFT_SHIFT SPACE    &mt LEFT_SHIFT SPACE  &lt 1 BACKSPACE  &kp BSPC     &kp RGUI    &kp RALT
             >;
 
             sensor-bindings =
@@ -163,16 +163,16 @@
 
         mac_arrows {
             bindings = <
-&kp F1   &kp F2     &kp F3     &kp F4     &kp F5     &kp F6                           &kp F7         &kp F8     &kp F9        &kp F10          &kp F11        &kp F12
-&kp ESC  &kp HOME   &kp UP     &kp END    &kp BSPC   &kp DEL                          &kp PAGE_UP    &kp HOME   &kp UP_ARROW  &kp END          &kp BACKSPACE  &kp DEL
-&kp TAB  &trans     &trans     &trans     &trans     &kp F6                           &kp TAB        &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &kp ENTER      &trans
-&kp F7   &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp F12  &trans       &trans     &kp PAGE_DOWN  &kp LG(X)  &kp LG(C)     &kp LG(V)        &kp F2         &kp BSLH
-                    &trans     &trans     &trans     &trans   &kp UNDER    &kp UNDER  &trans         &trans     &trans        &trans
+&kp F1   &kp F2     &kp F3     &kp F4      &kp F5     &kp F6                             &kp F7         &kp F8    &kp F9           &kp F10          &kp F11        &kp F12
+&kp ESC  &kp HOME   &kp UP     &kp ESCAPE  &kp BSPC   &kp DEL                            &kp PAGE_UP    &kp HOME  &kp UP_ARROW     &kp END          &kp BACKSPACE  &kp DEL
+&kp TAB  &trans     &trans     &trans      &trans     &kp F6                             &kp TAB        &kp LEFT  &kp DOWN         &kp RIGHT_ARROW  &kp ENTER      &trans
+&kp F7   &kp LG(Z)  &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp F12    &trans       &trans     &kp PAGE_DOWN  &deref    &angle_surround  &double_arrow    &kp F2         &kp BSLH
+                    &trans     &trans      &trans     &kp MINUS  &kp UNDER    &kp UNDER  &trans         &trans    &trans           &trans
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp LS(LG(Z)) LG(Z)>;
+                <&inc_dec_kp LG(Z) LS(LG(Z))>,
+                <&inc_dec_kp LG(Z) LG(LS(Z))>;
         };
     };
 };
