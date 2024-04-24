@@ -81,11 +81,6 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <22 23>;
         };
-
-        backspace2 {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <33 34>;
-        };
     };
 
     keymap {
@@ -167,7 +162,7 @@
 &kp TAB    &kp Q   &kp W      &kp E     &kp R     &kp T                              &kp Y     &kp U     &kp I      &kp O     &kp P     &kp LBKT
 &kp BSPC   &kp A   &kp S      &kp D     &kp F     &kp G                              &kp H     &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X      &kp C     &kp V     &kp B      &kp FSLH     &to 0      &kp N     &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp EQUAL
-                   &kp LCTRL  &kp LALT  &kp LALT  &kp SPACE  &kp LCTRL    &kp SPACE  &kp BSPC  &kp BSPC  &kp BSPC   &kp BSPC
+                   &kp LCTRL  &kp LALT  &kp LALT  &kp SPACE  &kp LCTRL     &mt LEFT_SHIFT SPACE  &lt 4 BACKSPACE  &kp BSPC  &kp BSPC   &kp BSPC
             >;
 
             sensor-bindings =
