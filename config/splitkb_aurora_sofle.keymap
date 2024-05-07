@@ -90,7 +90,7 @@
             bindings = <
 &kp GRAVE  &kp N1   &kp N2       &kp N3          &kp N4       &kp N5                                                   &kp N6           &kp N7       &kp N8      &kp N9       &kp N0           &kp MINUS
 &kp TAB    &kp Q    &kp W        &kp E           &kp R        &kp T                                                    &kp Y            &kp U        &kp I       &kp O        &kp P            &kp LEFT_BRACKET
-&kp ESC    &lt 3 A  &mt LCTRL S  &mt LEFT_ALT D  &mt LSHFT F  &kp G                                                    &kp H            &mt RSHFT J  &mt RALT K  &mt RCTRL L  &lt 3 SEMICOLON  &kp SQT
+&kp ESC    &lt 3 A  &mt LCTRL S  &mt LEFT_ALT D  &mt LSHFT F  &kp G                                                    &kp H            &mt RSHFT J  &mt RALT K  &mt RCTRL L  &lt 3 SEMICOLON  &lt 3 SQT
 &kp LSHFT  &kp Z    &kp X        &kp C           &kp V        &kp B      &to 1                   &to 5                 &kp N            &kp M        &kp COMMA   &kp DOT      &kp FSLH         &mt LEFT_SHIFT EQUAL
                     &kp LCTRL    &kp LALT        &kp LGUI     &lt 4 DEL  &mt LEFT_SHIFT SPACE    &mt LEFT_SHIFT SPACE  &lt 4 BACKSPACE  &kp BSPC     &kp ESCAPE  &kp RALT
             >;
@@ -104,7 +104,7 @@
             bindings = <
 &kp GRAVE      &kp N1   &kp N2           &kp N3          &kp N4       &kp N5                                                      &kp N6           &kp N7       &kp N8      &kp N9           &kp N0               &kp MINUS
 &kp TAB        &kp Q    &kp W            &kp E           &kp R        &kp T                                                       &kp Y            &kp U        &kp I       &kp O            &kp P                &kp LEFT_BRACKET
-&mt LCTRL ESC  &lt 2 A  &mt LEFT_META S  &mt LEFT_ALT D  &mt LSHFT F  &kp G                                                       &kp H            &mt RSHFT J  &mt RALT K  &mt LEFT_META L  &mt LCTRL SEMICOLON  &kp SQT
+&mt LCTRL ESC  &lt 2 A  &mt LEFT_META S  &mt LEFT_ALT D  &mt LSHFT F  &kp G                                                       &kp H            &mt RSHFT J  &mt RALT K  &mt LEFT_META L  &mt LCTRL SEMICOLON  &lt 2 SQT
 &kp LSHFT      &kp Z    &kp X            &kp C           &kp V        &kp B         &to 0                   &to 5                 &kp N            &kp M        &kp COMMA   &kp DOT          &kp FSLH             &kp EQUAL
                         &kp LCTRL        &kp LALT        &kp LGUI     &lt 4 DELETE  &mt LEFT_SHIFT SPACE    &mt LEFT_SHIFT SPACE  &lt 4 BACKSPACE  &kp BSPC     &kp RGUI    &kp RALT
             >;
@@ -116,11 +116,11 @@
 
         mac_arrows {
             bindings = <
-&kp F1   &kp F2     &kp F3     &kp F4      &kp F5     &kp F6                             &kp F7         &kp F8    &kp F9           &kp F10          &kp F11        &kp F12
-&kp ESC  &kp HOME   &kp UP     &kp ESCAPE  &kp BSPC   &kp DEL                            &kp PAGE_UP    &kp HOME  &kp UP_ARROW     &kp END          &kp BACKSPACE  &kp DEL
-&kp TAB  &trans     &trans     &trans      &trans     &kp F6                             &kp TAB        &kp LEFT  &kp DOWN         &kp RIGHT_ARROW  &kp ENTER      &trans
-&kp F7   &kp LG(Z)  &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp F12    &trans       &trans     &kp PAGE_DOWN  &deref    &angle_surround  &double_arrow    &kp F2         &kp BSLH
-                    &trans     &trans      &trans     &kp MINUS  &kp UNDER    &kp UNDER  &trans         &trans    &trans           &trans
+&kp F1   &kp F2     &kp F3     &kp F4      &kp F5     &kp F6                             &kp F7         &kp F8    &kp F9           &kp F10              &kp F11        &kp F12
+&kp ESC  &kp HOME   &kp UP     &kp ESCAPE  &kp BSPC   &kp DEL                            &kp PAGE_UP    &kp HOME  &kp UP_ARROW     &kp END              &kp BACKSPACE  &kp DEL
+&kp TAB  &trans     &trans     &trans      &trans     &kp F6                             &kp TAB        &kp LEFT  &kp DOWN         &kp RIGHT_ARROW      &kp ENTER      &trans
+&kp F7   &kp LG(Z)  &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp F12    &trans       &trans     &kp PAGE_DOWN  &deref    &angle_surround  &double_arrow        &kp F2         &kp BSLH
+                    &trans     &trans      &trans     &kp MINUS  &kp UNDER    &kp UNDER  &trans         &trans    &trans           &kp LA(LG(K_EJECT))
             >;
 
             sensor-bindings =
