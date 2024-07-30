@@ -84,7 +84,12 @@
 
         one-handed {
             bindings = <&tog 7>;
-            key-positions = <39 40>;
+            key-positions = <53 52>;
+        };
+
+        one_handed_right {
+            bindings = <&tog 7>;
+            key-positions = <56 57>;
         };
     };
 
