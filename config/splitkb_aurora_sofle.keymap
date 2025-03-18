@@ -26,7 +26,7 @@
     flavor = "balanced";
 };
 
-&sensors { triggers-per-rotation = <64>; };
+&sensors { triggers-per-rotation = <36>; };
 
 / {
     macros {
